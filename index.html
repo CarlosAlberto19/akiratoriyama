@@ -20,10 +20,47 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
+    <nav class="menu">
+        <!-- Contenido del menú -->
+    </nav>
     
+    <!-- Mensaje de bienvenida -->
+    <div id="welcome-message">
+        Bienvenido a la página homenaje a Akira Toriyama
+    </div>
+    <script>
+        // JavaScript para mostrar un mensaje de bienvenida
+        function myFunction() {
+            alert("Bienvenido a la página homenaje a Akira Toriyama");
+        }
+
+        // Llamar a la función cuando la ventana se carga completamente
+        window.onload = function() {
+            myFunction();
+        };
+    </script>
+    
+   
     
 </head>
+
+
+
 <body>
+
+
+<script type="module">
+  import autoAnimate from './js/autoAnimate.js'
+  const dropdown = document.getElementById('dropdown')
+  autoAnimate(dropdown)
+
+  const p = document.createElement('p')
+  p.innerText = "Lorum ipsum..."
+
+  function toggle () {
+    dropdown.contains(p) ? p.remove() : dropdown.appendChild(p)
+  }
+</script>
     
 
       
@@ -63,3 +100,4 @@
     <script type="module" src="/main.js"></script>
 </body>
 </html>
+//ES ./main.js
