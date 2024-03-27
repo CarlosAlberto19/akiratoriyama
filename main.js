@@ -17,7 +17,7 @@ const peliculasToriyama= [
         imagen: "https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/XZO5R7VSQFJMTMC3ZJGBNKTJBA.jpg"
     },
     {
-        titulo: "Chrono Trigger",123489
+        titulo: "Chrono Trigger",
         tipo: "Videojuego",
         año: 1995,
         descripcion: "Un aclamado videojuego de rol desarrollado por Square (ahora Square Enix) que cuenta con el diseño de personajes de Akira Toriyama.",
@@ -70,6 +70,3 @@ const peliculasToriyama= [
 
 
 pintarPeliculas();
-
-    
-
